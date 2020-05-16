@@ -12,12 +12,12 @@ html {
 }
 @media (min-width: 25em) { /* 400px */
   html {
-    font-size: calc(1rem + (1.4 - 1) * (100vw - 25em) / (100 - 25));
+    font-size: calc(1rem + (1.2 - 1) * (100vw - 25em) / (100 - 25));
   }
 }
 @media (min-width: 100em) { /* 1600px */
   html {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
   }
 
 }
@@ -72,13 +72,13 @@ ul li {
 }
 a:link {
   text-decoration: none;
-  color: mediumpurple;
+  color:#5A2BD1;
 }
 a:visited {
-  color: mediumpurple;
+  color:#5A2BD1;
 }
 a:hover {
-  color: purple;
+  color: #5A2BD1;
 }
 
 
@@ -103,17 +103,12 @@ a:hover {
     justify-content: space-between;
   }
 }
-.proyect-name {
-  color: #B986C7;
-  margin-right: 0.5rem;
-  text-transform: uppercase;
-
-}
 .information-link {
   display: flex;
   align-items: baseline;
   font-family: 'Mali', sans-serif;
   margin-right: 0.5rem;
+  font-size: 0.9em;
 }
 .information-link>div:first-child {
   margin-right: 1rem;
