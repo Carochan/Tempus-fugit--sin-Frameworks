@@ -91,7 +91,6 @@ a:hover {
   flex-wrap: wrap;
   align-items: baseline;
   box-shadow: 2px 2px 8px lightgray;
-  display: flex;
   align-items: center;
 }
 .header .content-element {
@@ -105,13 +104,14 @@ a:hover {
 }
 .information-link {
   display: flex;
-  align-items: baseline;
+  align-items: center;
   font-family: 'Mali', sans-serif;
   margin-right: 0.5rem;
   font-size: 0.9em;
 }
 .information-link>div:first-child {
   margin-right: 1rem;
+  align-self: center;
 }
 
 /*Styling main division*/
