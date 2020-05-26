@@ -176,11 +176,13 @@ form input{
 /*Styling footer*/
 
 .tf-footer {
- font-family: "Mali";
+ font-family: "Roboto";
  text-align: center;
  display: flex;
  flex-wrap: wrap;
  justify-content: space-around;
- color: #B986C7;
-
+ color: #5a2bd1;
+  background-color: #e9e8e8;
+  padding: 0.5rem;
+  margin: -7px;
 }
