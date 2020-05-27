@@ -192,7 +192,15 @@ input[type=button]:hover {
  flex-wrap: wrap;
  justify-content: space-around;
  color: #5a2bd1;
-  background-color: #e9e8e8;
+  background-color: #EDF2F7;
   padding: 0.5rem;
   margin: -7px;
+}
+
+/*Styling result*/
+.giveMeResult {
+  background-color: #ed8937;
+  text-align: center;
+  color: white;
+  padding: 1rem;
 }
