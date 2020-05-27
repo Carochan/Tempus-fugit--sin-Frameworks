@@ -161,9 +161,19 @@ form input{
   
 }
 #dBirth, #fName {
-  background-color: #e9e8e8;
+  background-color: #EDF2F7;
   padding: 0.5rem;
 
+}
+
+input[type=button] {
+  background-color: #ed8937;
+  color: black;
+  padding: 0.5rem;
+}
+input[type=button]:hover {
+  background-color: rgb(190, 90, 22);
+  color: white;
 }
 
 /*Styling the image*/
